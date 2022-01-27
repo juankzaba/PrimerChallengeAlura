@@ -1,0 +1,101 @@
+                        body {
+                            font-size: 1rem;
+                            margin: auto;
+                            color: #0096c7;
+                            max-width: 50rem;
+                            background: radial-gradient(circle, #c8b6ff 0%, #b8c0ff 60%, #bbd0ff 100%);
+                        }
+                        
+                        .main {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            width: 400px;
+                            background: #24303c;
+                            padding: 20px;
+                            margin: auto;
+                            margin-top: 45px;
+                            margin-bottom: 50px;
+                            border-radius: 4px;
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            color: white;
+                            box-shadow: 7px 13px 37px #000;
+                        }
+                        
+                        .text-area {
+                            width: 100%;
+                            background: #24303c;
+                            padding: 10px;
+                            border-radius: 4px;
+                            margin-bottom: 16px;
+                            border: 1px solid #1f53c5;
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            font-size: 18px;
+                            color: white;
+                        }
+                        
+                        input {
+                            padding: 0%;
+                        }
+                        
+                        .error::-webkit-input-placeholder {
+                            color: #c9184a;
+                        }
+                        
+                        .error:-ms-input-placeholder {
+                            color: #d90429;
+                        }
+                        
+                        .error::-ms-input-placeholder {
+                            color: #ef476f;
+                        }
+                        
+                        .error::placeholder {
+                            color: #d62828;
+                        }
+                        
+                        .btn {
+                            margin: 1rem;
+                            -webkit-box-shadow: 0px 10px 14px -7px #276873;
+                            box-shadow: 0px 10px 14px -7px #032174;
+                            background: #023e8a;
+                            border-radius: 8px;
+                            display: inline-block;
+                            cursor: pointer;
+                            color: white;
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            font-size: 1rem;
+                            font-weight: bold;
+                            padding: 0.5rem 0.5rem;
+                            text-decoration: none;
+                            text-shadow: 0px 1px 0px #3d768a;
+                        }
+                        
+                        .btn:hover {
+                            background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #34a0a4), to(#168aad));
+                            background: linear-gradient(to bottom, #1a759f 5%, #1e6091 100%);
+                            background-color: #184e77;
+                        }
+                        
+                        .btn:active {
+                            position: relative;
+                            top: 1px;
+                        }
+                        
+                        .pie-pagina .red-social a {
+                            display: inline-block;
+                            text-decoration: none;
+                            width: 45%;
+                            height: 45px;
+                            line-height: 45px;
+                            color: #fff;
+                            margin-right: 10px;
+                            margin-top: 10px;
+                            background-color: #023e8a;
+                            text-align: center;
+                            transition: all 300ms ease;
+                        }
+                        
+                        .pie-pagina .red-social a:hover {
+                            color: #000;
+                        }
